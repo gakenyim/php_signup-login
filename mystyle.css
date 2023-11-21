@@ -1,0 +1,57 @@
+/* Style the form container */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* Style form inputs and labels */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  /* Style the submit button */
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style for error messages */
+  .error-message {
+    color: #ff0000;
+    margin-top: -10px;
+    margin-bottom: 16px;
+  }
+  
+  /* Style for success messages */
+  .success-message {
+    color: #008000;
+    margin-top: -10px;
+    margin-bottom: 16px;
+  }
+  
